@@ -20,14 +20,21 @@ namespace EasyPS
 
                 IHistory history = new HistorySetting();
 
-                using (PSCommandContainer commandParameters = new PSCommandContainer(commandName))
+                CommandController controller = new CommandController(commandName, history);
+
+                string errorReason = "";
+                if (controller.PopulateParameters(out errorReason))
                 {
-                    if (commandParameters.Setup(history))
+                    using (HelpViewer helpViewer = new HelpViewer(commandName))
                     {
                         Application.EnableVisualStyles();
                         Application.SetCompatibleTextRenderingDefault(false);
-                        Application.Run(new EasyPSForm(commandName, commandParameters));
+                        Application.Run(new EasyPSForm(controller, helpViewer));
                     }
+                }
+                else
+                {
+                    MessageBox.Show(errorReason);
                 }
             }
             else

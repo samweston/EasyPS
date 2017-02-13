@@ -30,10 +30,10 @@ namespace EasyPS.Tests
         }
 
         [TestMethod()]
-        public void TestNull()
+        public void TestEmpty()
         {
             var items = History.GetHistory("path\\to\\file1", "prop1");
-            Assert.IsNull(items);
+            Assert.AreEqual(0, items.Count());
         }
 
         [TestMethod()]

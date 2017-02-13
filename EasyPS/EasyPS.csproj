@@ -13,6 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -66,9 +66,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandController.cs" />
+    <Compile Include="HelpViewer.cs" />
     <Compile Include="History.cs" />
-    <Compile Include="RowContainer.cs" />
-    <Compile Include="PSCommandContainer.cs" />
+    <Compile Include="ParameterController.cs" />
     <Compile Include="EasyPSForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +79,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Utils.cs" />
     <EmbeddedResource Include="EasyPSForm.resx">
       <DependentUpon>EasyPSForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -15,18 +15,18 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_29AB6A3E158274DD7AFE821CD426388D"
-        "OwnerKey" = "8:_940238A0FF604B6DBFBFA33ECE315DA1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_940238A0FF604B6DBFBFA33ECE315DA1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_98DAF8D1911EFDE2253CB4D971E13A9A"
+        "OwnerKey" = "8:_940238A0FF604B6DBFBFA33ECE315DA1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_940238A0FF604B6DBFBFA33ECE315DA1"
         "MsmSig" = "8:_UNDEFINED"
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_29AB6A3E158274DD7AFE821CD426388D"
+        "OwnerKey" = "8:_98DAF8D1911EFDE2253CB4D971E13A9A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -132,14 +132,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_29AB6A3E158274DD7AFE821CD426388D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_98DAF8D1911EFDE2253CB4D971E13A9A"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:System.Management.Automation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_29AB6A3E158274DD7AFE821CD426388D"
+                    "_98DAF8D1911EFDE2253CB4D971E13A9A"
                     {
                     "Name" = "8:System.Management.Automation.dll"
                     "Attributes" = "3:512"
@@ -219,15 +219,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EasyPS"
-        "ProductCode" = "8:{8B4317A2-A0BC-443B-A6B7-3CD4E9320502}"
-        "PackageCode" = "8:{5476DE74-5B75-4EAF-8E5F-DF88D7F11B25}"
+        "ProductCode" = "8:{B45B6A03-C94F-423E-803D-BEBD39DE1889}"
+        "PackageCode" = "8:{01468FFD-6919-44DD-BE8D-1F96BCA17869}"
         "UpgradeCode" = "8:{8EC8AA72-4877-4650-B13A-663FF75AD39B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.1.0"
+        "ProductVersion" = "8:0.2.0"
         "Manufacturer" = "8:Sam Weston"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -805,7 +805,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_940238A0FF604B6DBFBFA33ECE315DA1"
             {
-            "SourcePath" = "8:..\\EasyPS\\obj\\Debug\\EasyPS.exe"
+            "SourcePath" = "8:..\\EasyPS\\obj\\Release\\EasyPS.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BB1FFF500D6E4371BD81C402CA721F16"
